@@ -1,0 +1,39 @@
+Style.css
+body{
+    height: auto;
+    margin: 0%;
+}
+
+header > h1{
+    background-color: red;
+    margin: 0%;
+    padding: 40px;
+    text-align: right;
+}
+.menu li{
+    padding: 10px;
+    display: inline-block;
+}
+.menu li:hover{
+    background-color: gray;
+}
+.menu li:nth-child(2):hover #dropdown{
+    display: block;
+}
+#dropdown{
+    position: absolute;
+    width:auto;
+    max-width: 150px;
+    display: none;
+    background-color: white;
+    padding: 0%;
+}
+#dropdown li{
+    display: block;
+    background-color: whitesmoke;
+}
+.menu{
+    margin: 0%;
+    padding: 10px;
+    background-color: gray;
+}
